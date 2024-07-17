@@ -42,13 +42,13 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Quienes somos</a>
+                    <a class="nav-link active" href="#quienesSomos">Quienes somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Destacados</a>
+                    <a class="nav-link active" href="#destacados">Destacados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Contacto</a>
+                    <a class="nav-link active" href="#contacto">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -86,7 +86,7 @@
             </div>
         </section>
     <!--Quienes somos-->
-        <section>
+        <section id="quienesSomos">
             <div class="container row mx-auto mb-5">
                 <h2 class="text-center pt-5 pb-3">¿QUIÉNES SOMOS?</h2>
                 <hr>
@@ -117,11 +117,11 @@
             </div>
         </section>
     <!-- Destacados-->
-     <section>
+     <section id="destacados">
         <h2 class="text-center pt-5 pb-3">DESTACADOS</h2>
         <div class="container row mx-auto justify-content-center">
             <hr>
-            <div class="card text-start col-3 px-0 m-3" style="width: 18rem;">
+            <div class="card text-start col-3 px-0 m-3 color2" style="width: 18rem;">
                 <img class="card-img-top" src="assets/img/card1.jpg" alt="Title" />
                 <div class="card-body">
                     <h4 class="card-title">Title</h4>
@@ -131,7 +131,7 @@
                         harum praesentium obcaecati.</p>
                 </div>
             </div>
-            <div class="card text-start col-3 px-0 m-3" style="width: 18rem;" >
+            <div class="card text-start col-3 px-0 m-3 color2" style="width: 18rem;" >
                 <img class="card-img-top" src="assets/img/card2.jpg" alt="Title" />
                 <div class="card-body">
                     <h4 class="card-title">Title</h4>
@@ -141,7 +141,7 @@
                         repellendus nam modi incidunt ipsam!</p>
                 </div>
             </div>
-            <div class="card text-start col-3 px-0 m-3" style="width: 18rem;">
+            <div class="card text-start col-3 px-0 m-3 color2" style="width: 18rem;">
                 <img class="card-img-top" src="assets/img/card3.jpg" alt="Title" />
                 <div class="card-body">
                     <h4 class="card-title">Title</h4>
@@ -150,7 +150,7 @@
                         Et eius cumque ratione fugit minima ea a odit molestiae debitis?</p>
                 </div>
             </div>
-            <div class="card text-start col-3 px-0 m-3" style="width: 18rem;">
+            <div class="card text-start col-3 px-0 m-3 color2" style="width: 18rem;">
                 <img class="card-img-top" src="assets/img/card4.jpg" alt="Title" />
                 <div class="card-body">
                     <h4 class="card-title">Title</h4>
@@ -161,11 +161,37 @@
             </div>
         </div>
     </section>
-        <section>
+        <section id="contacto">
         <!--Contacto form-->
+        <div class="container">
+            <h2 class="text-center pt-5 pb-3">CONTACTO</h2>
+            <hr>
+            <form>
+                <label class="form-label my-3">Nombre:</label>
+                <input class="form-control">
+                <label class="form-label my-3">Asunto:</label>
+                <input class="form-control">
+                <label class="form-label my-3">Mensaje:</label>
+                <textarea class="form-control" rows="10"></textarea>
+                <button class="btn btn-info color2 text-center mb-5 mt-3">Enviar</button>
+            </form>
+        </div>
         </section>
-    </main>
+    </main> 
     <footer>
+            <div class="py-4 color2">
+                <div class="container row mx-auto">
+                    <div class="col-6">
+                        <h3 class="text-center">VIAJES CHILE</h3>
+                    </div>
+                    <div class="col-5 text-end">
+                        <i class="fa-brands fa-square-github fa-2x mx-2"></i>
+                        <i class="fa-brands fa-linkedin fa-2x mx-2"></i>
+                        <i class="fa-brands fa-square-twitter fa-2x mx-2"></i>
+                        <i class="fa-brands fa-square-facebook fa-2x mx-2"></i>
+                    </div>
+                </div>
+            </div>
         <!--Footer con rrss-->
     </footer>
 
