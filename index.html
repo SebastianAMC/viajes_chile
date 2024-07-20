@@ -8,6 +8,10 @@
         rel="stylesheet" 
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
         crossorigin="anonymous">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- FontAwesome 6.2.0 CSS -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -90,24 +94,24 @@
             <div class="container row mx-auto mb-5">
                 <h2 class="text-center pt-5 pb-3">¿QUIÉNES SOMOS?</h2>
                 <hr>
-                <div class="col-4">
-                    <div class="bg-info text-center text-light"><i class="fa-solid fa-plane"></i></div>
+                <div class="col-md-4">
+                    <div class="color2 text-center text-light d-none d-md-block" id="adorno1"><i class="fa-solid fa-plane"></i></div>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam optio accusamus 
                         incidunt eligendi voluptas unde neque! Commodi sit dolor nam voluptates perspiciatis 
                         culpa consequuntur. Cum nostrum totam culpa unde eaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                         Veniam molestiae culpa blanditiis et placeat. A, totam et, ab nisi iste sit dolorem, eligendi culpa dignissimos eveniet 
                         fugit vitae aliquam atque?</p>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam optio accusamus 
                         incidunt eligendi voluptas unde neque! Commodi sit dolor nam voluptates perspiciatis 
                         culpa consequuntur. Cum nostrum totam culpa unde eaque!
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima ut autem beatae sit alias saepe possimus, 
                         nobis illum tempora minus quidem provident accusamus eligendi a aspernatur error dolores commodi?</p>
-                    <div class="bg-info text-center text-light"><i class="fa-solid fa-mountain"></i></div>
+                    <div class="color2 text-center text-light d-none d-md-block" id="adorno2"><i class="fa-solid fa-mountain"></i></div>
                 </div>
-                <div class="col-4">
-                    <div class="bg-info text-center text-light"><i class="fa-solid fa-route"></i></div>
+                <div class="col-md-4">
+                    <div class="color2 text-center text-light d-none d-md-block" id="adorno3"><i class="fa-solid fa-route"></i></div>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam optio accusamus 
                         incidunt eligendi voluptas unde neque! Commodi sit dolor nam voluptates perspiciatis 
                         culpa consequuntur. Cum nostrum totam culpa unde eaque!
@@ -117,87 +121,104 @@
             </div>
         </section>
     <!-- Destacados-->
-     <section id="destacados">
-        <h2 class="text-center pt-5 pb-3">DESTACADOS</h2>
-        <div class="container row mx-auto justify-content-center">
-            <hr>
-            <div class="card text-start col-3 px-0 m-3 color2" style="width: 18rem;">
-                <img class="card-img-top" src="assets/img/card1.jpg" alt="Title" />
-                <div class="card-body">
-                    <h4 class="card-title">Title</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quaerat, voluptatem sint ipsam optio quisquam modi dignissimos 
-                        nemo rerum quod repellendus numquam maiores in, ut perferendis corporis sit, 
-                        harum praesentium obcaecati.</p>
+        <section id="destacados">
+            <h2 class="text-center pt-5 pb-3">DESTACADOS</h2>
+            <div class="container row mx-auto justify-content-center">
+                <hr>
+                <div class="card text-start col-3 px-0 m-3 color2" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/card1.jpg" alt="Title" />
+                    <div class="card-body">
+                        <h4 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quaerat, voluptatem sint ipsam optio quisquam modi dignissimos 
+                            nemo rerum quod repellendus numquam maiores in, ut perferendis corporis sit, 
+                            harum praesentium obcaecati.</p>
+                    </div>
+                </div>
+                <div class="card text-start col-3 px-0 m-3 color2" style="width: 18rem;" >
+                    <img class="card-img-top" src="assets/img/card2.jpg" alt="Title" />
+                    <div class="card-body">
+                        <h4 class="card-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Dignissimos harum hic itaque animi quam. 
+                            Maxime dignissimos facilis blanditiis atque eum nobis, quaerat porro ea veniam 
+                            repellendus nam modi incidunt ipsam!</p>
+                    </div>
+                </div>
+                <div class="card text-start col-3 px-0 m-3 color2" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/card3.jpg" alt="Title" />
+                    <div class="card-body">
+                        <h4 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Corrupti harum repellat error dolorem, et exercitationem ipsam sit nostrum a. 
+                            Et eius cumque ratione fugit minima ea a odit molestiae debitis?</p>
+                    </div>
+                </div>
+                <div class="card text-start col-3 px-0 m-3 color2" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/card4.jpg" alt="Title" />
+                    <div class="card-body">
+                        <h4 class="card-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Temporibus eum unde dignissimos alias, tenetur ea, magni, amet nisi earum debitis animi 
+                            voluptatem laudantium eius! Voluptatum id enim natus accusamus saepe.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card text-start col-3 px-0 m-3 color2" style="width: 18rem;" >
-                <img class="card-img-top" src="assets/img/card2.jpg" alt="Title" />
-                <div class="card-body">
-                    <h4 class="card-title">Title</h4>
-                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Dignissimos harum hic itaque animi quam. 
-                        Maxime dignissimos facilis blanditiis atque eum nobis, quaerat porro ea veniam 
-                        repellendus nam modi incidunt ipsam!</p>
-                </div>
-            </div>
-            <div class="card text-start col-3 px-0 m-3 color2" style="width: 18rem;">
-                <img class="card-img-top" src="assets/img/card3.jpg" alt="Title" />
-                <div class="card-body">
-                    <h4 class="card-title">Title</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Corrupti harum repellat error dolorem, et exercitationem ipsam sit nostrum a. 
-                        Et eius cumque ratione fugit minima ea a odit molestiae debitis?</p>
-                </div>
-            </div>
-            <div class="card text-start col-3 px-0 m-3 color2" style="width: 18rem;">
-                <img class="card-img-top" src="assets/img/card4.jpg" alt="Title" />
-                <div class="card-body">
-                    <h4 class="card-title">Title</h4>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Temporibus eum unde dignissimos alias, tenetur ea, magni, amet nisi earum debitis animi 
-                        voluptatem laudantium eius! Voluptatum id enim natus accusamus saepe.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-        <section id="contacto">
-        <!--Contacto form-->
-        <div class="container">
-            <h2 class="text-center pt-5 pb-3">CONTACTO</h2>
-            <hr>
-            <form>
-                <label class="form-label my-3">Nombre:</label>
-                <input class="form-control">
-                <label class="form-label my-3">Asunto:</label>
-                <input class="form-control">
-                <label class="form-label my-3">Mensaje:</label>
-                <textarea class="form-control" rows="10"></textarea>
-                <button class="btn btn-info color2 text-center mb-5 mt-3">Enviar</button>
-            </form>
-        </div>
         </section>
-    </main> 
+    <!--Contacto-->
+        <section id="contacto">
+            <div class="container">
+                <h2 class="text-center pt-5 pb-3">CONTACTO</h2>
+                <hr>
+                <form>
+                    <label class="form-label my-3">Nombre:</label>
+                    <input class="form-control">
+                    <label class="form-label my-3">Asunto:</label>
+                    <input class="form-control">
+                    <label class="form-label my-3">Mensaje:</label>
+                    <textarea class="form-control" rows="10"></textarea>
+                    <button class="btn btn-info color2 text-center mb-5 mt-3 col-12 col-md-1" id="botonEnviar">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
     <footer>
-            <div class="py-4 color2">
-                <div class="container row mx-auto">
-                    <div class="col-6">
-                        <h3 class="text-center">VIAJES CHILE</h3>
-                    </div>
-                    <div class="col-5 text-end">
-                        <i class="fa-brands fa-square-github fa-2x mx-2"></i>
-                        <i class="fa-brands fa-linkedin fa-2x mx-2"></i>
-                        <i class="fa-brands fa-square-twitter fa-2x mx-2"></i>
-                        <i class="fa-brands fa-square-facebook fa-2x mx-2"></i>
-                    </div>
+    <!--Footer con rrss-->
+        <div class="py-4 color2">
+            <div class="container row mx-auto">
+                <div class="col-md-6">
+                    <h3 class="text-center">VIAJES CHILE</h3>
+                </div>
+                <div class="col-md-5 col-12 text-center text-md-end">
+                    <a href="https://www.github.com" target="_blank">
+                        <i class="fa-brands fa-square-github fa-2x mx-2" 
+                        data-toggle="tooltip" data-placement="top" title="Vamos a Github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-2x mx-2"
+                        data-toggle="tooltip" data-placement="top" title="Vamos a LinkedIn"></i>
+                    </a>
+                    <a href="https://www.x.com" target="_blank">
+                        <i class="fa-brands fa-square-twitter fa-2x mx-2"
+                        data-toggle="tooltip" data-placement="top" title="Vamos a X (Twitter)"></i>
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fa-brands fa-square-facebook fa-2x mx-2"
+                        data-toggle="tooltip" data-placement="top" title="Vamos a Facebook"></i>
+                    </a>
                 </div>
             </div>
-        <!--Footer con rrss-->
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
     crossorigin="anonymous">
     </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" 
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" 
+    crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
